@@ -1,0 +1,47 @@
+h1{
+
+color:black;
+background-color:aqua;
+
+    font-family: "Volkhov", serif;
+    font-size:30px;
+}
+
+p{
+font-style: oblique;
+font-size: 15px;
+color:rgb(4, 5, 7);
+
+}
+h2{
+    color:blue;
+    
+}
+span{
+font-weight:bold;
+color:red;
+}
+#samar
+
+{
+
+    height:350px;
+    background-color: blue;
+}
+#muthu
+{
+    height:350px;
+    background-color:green;
+
+}
+#nivin
+{
+
+    height:350px;
+    background-color:gray;
+}
+.agal{
+color:brown;
+    font-size: 30px;
+    text-align: center;
+}
