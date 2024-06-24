@@ -1,7 +1,7 @@
 h1{
 
 color:black;
-background-color:aqua;
+
 
     font-family: "Volkhov", serif;
     font-size:30px;
@@ -25,23 +25,179 @@ color:red;
 
 {
 
-    height:350px;
-    background-color: blue;
+    height:100px;
+    background-color:yellowgreen;
 }
 #muthu
 {
-    height:350px;
+    height:100px;
     background-color:green;
 
 }
 #nivin
 {
 
-    height:350px;
+    height:100px;
     background-color:gray;
 }
 .agal{
 color:brown;
     font-size: 30px;
     text-align: center;
+}
+h2{
+
+border-style:solid;
+}
+h3{
+
+    border-style:dotted;
+    }
+    h4{
+
+        border-style:dashed;
+        }
+        h5{
+
+            border-style:double;
+            }
+            h6{
+
+                border-style:solid inset outset dashed;
+                }
+                h1
+                {
+                    text-align: center;
+                    padding:20px;
+                }
+
+                #header
+                {
+                  width:100%;
+                  background-color:aqua;
+                  height: 100px;
+                  overflow: hidden;
+                }
+                
+                #panners
+                {
+                  width:100%;
+                  background-color:burlywood;
+                  height: 300px;
+                  overflow: hidden;
+                }
+                
+                #intro
+                {
+                  width:100%;
+                  background-color:pink;
+                  height: 200px;
+                  overflow: hidden;
+                }
+                #box1
+                 {
+height:400px;
+width:32%;
+background-color:orange; 
+float:left; 
+overflow:hidden;
+margin-right:2%; 
+               }
+                 #box2
+                 {
+                    height:400px;
+                    width:32%;
+                    background-color:orange; 
+                    float:left; 
+                    overflow:hidden;
+                    margin-right:2%;    
+                     }
+                                     #box3
+                                     {
+                                        height:400px;
+                                        width:32%;
+                                        background-color:orange; 
+                                        float:right; 
+                                        overflow:hidden; 
+                                    
+                                     }
+                                        
+#footer
+{
+    width:100%;
+                  background-color:gold;
+                  height: 100px;
+                  overflow: hidden;
+                  clear:both;
+}
+
+.fa-facebook
+{
+color: white;
+background-color: blue;
+padding:12px;
+font-size:24px;
+border-radius: 30%;
+}
+
+.fa-twitter
+{
+color: white;
+background-color:red;
+padding:10px;
+font-size:24px;
+border-radius: 30%;
+}
+.fa-instagram
+{
+color: white;
+background-color:brown;
+padding:10px;
+font-size:24px;
+border-radius: 30%;
+}
+a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.button1
+{
+border: radius 20px;
+border: 1px solid green;
+padding:15px 20px;
+
+
+}
+.button1:hover
+{
+background-color: gray;
+color:whitesmoke;
+}
+.button2
+{
+border: radius 20px;
+border: 1px solid green;
+padding:15px 20px;
+
+
+}
+.button2:hover
+{
+background-color: gray;
+color:whitesmoke;
+}
+.button3
+{
+border: radius 20x;
+border: 1px solid green;
+padding:15px 20px;
+
+
+}
+.button3:hover
+{
+background-color: gray;
+color:whitesmoke;
 }
