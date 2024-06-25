@@ -139,7 +139,10 @@ padding:12px;
 font-size:24px;
 border-radius: 30%;
 }
-
+.fa-facebook:hover
+{
+    opacity: 0.4;
+}
 .fa-twitter
 {
 color: white;
@@ -147,6 +150,10 @@ background-color:red;
 padding:10px;
 font-size:24px;
 border-radius: 30%;
+}
+.fa-twitter:hover
+{
+    opacity: 0.4;
 }
 .fa-instagram
 {
@@ -156,6 +163,10 @@ padding:10px;
 font-size:24px;
 border-radius: 30%;
 }
+.fa-instagram:hover
+{
+    opacity: 0.4;
+}
 a{
 
     text-decoration: none;
@@ -164,7 +175,7 @@ a{
 }
 .button1
 {
-border: radius 20px;
+border-radius: 20px;
 border: 1px solid green;
 padding:15px 20px;
 
@@ -177,7 +188,7 @@ color:whitesmoke;
 }
 .button2
 {
-border: radius 20px;
+border-radius :20px;
 border: 1px solid green;
 padding:15px 20px;
 
@@ -190,7 +201,7 @@ color:whitesmoke;
 }
 .button3
 {
-border: radius 20x;
+border-radius:20x;
 border: 1px solid green;
 padding:15px 20px;
 
@@ -201,3 +212,61 @@ padding:15px 20px;
 background-color: gray;
 color:whitesmoke;
 }
+img:hover
+{
+    opacity:0.3;
+}
+#sec1
+{
+width: 400px;
+height: 200px;
+background-color: blanchedalmond;
+}
+#sec1:hover
+{
+    opacity: 0.3;
+}
+table,td,tr,th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height:50px;
+    width: 1000px;
+}
+table.td,th,tr
+{
+    text-align: center;
+    vertical-align: bottom;
+    padding:hidden;
+
+}
+tr:nth-child(even)
+{
+background-color:gold;
+color:red;
+}
+tr:hover
+{
+    background-color: brown;
+    color:whitesmoke;
+}
+/* display */
+span{
+    color:red;
+    }
+    /* max-width */
+    body{
+
+background-color: whitesmoke;
+min-width :450px;
+max-width: 1200px;
+    }
+ /* overflow */
+ #wrapper
+ {
+width:95%;
+max:width 1200px;
+height: 200%;
+background-color: khaki;
+overflow:scroll;
+ }
