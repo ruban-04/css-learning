@@ -16,28 +16,25 @@ color:rgb(4, 5, 7);
 h2{
     color:blue;
     
-}
-span{
-font-weight:bold;
-color:red;
-}
+color:red;}
+
 #samar
 
 {
 
-    height:100px;
+    height:150px;
     background-color:yellowgreen;
 }
 #muthu
 {
-    height:100px;
+    height:150px;
     background-color:green;
 
 }
 #nivin
 {
 
-    height:100px;
+    height:150px;
     background-color:gray;
 }
 .agal{
@@ -245,64 +242,121 @@ tr:hover
     background-color: brown;
     color:whitesmoke;
 }
-/* display */
-span{
-    color:red;
-    }
-    /* max-width */
-    body{
 
-background-color: whitesmoke;
-min-width :450px;
-max-width: 1200px;
-    }
- /* overflow */
- #wrapper
- {
-width:95%;
-max-width :1200px;
-height: 200%;
-background-color: khaki;
-overflow:scroll;
- }
+
+
+  /* overflow */
+  #wrapper
+  {
+ width:95%;
+ max-width :1200px;
+ height: 200%;
+ background-color: khaki;
+ overflow:scroll;
+  }
   .container
  {
-    width:400px;
-    height: 300px;
+    width:200px;
+    height: 200px;
     background-color: brown;
     margin:top 100px;
     margin:auto;
     box-sizing:border-box;
+    
  }
+.container:hover
+{
+    transition: 2s;
+    transform:rotate(50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg);
+}
 
- .kuttybox1
- {
-    width:50px;
-    height:50px;
-    position:relative;
-      left: 0px;
-    top:0px;
-     background-color:pink;
- }
-     .kuttybox2
-     {
-        width:50px;
-        height:50px;
-        position:relative;
-        top: 50px;
-         background-color:greenyellow;
-     }
-     /* shadows */
-     p{
-        text-shadow:5px 4px 4px green;
-        box-shadow: 2px 4px 4px black ; 
-             }
-             p:hover{
-               box-shadow: 2px 4px 4px red ;
-               text-shadow:5px 4px 4px black; 
-             }
+
 ::selection
 {
-    background-color: green;
+    background-color:green;
     color:yellowgreen;
+}
+.learn
+{
+    background-color: yellow;
+    color: blue;
+    text-decoration: overline;
+}
+.ruban
+{
+  color:green;
+  text-decoration: underline;
+}
+.button
+{
+    background-color: pink;
+    width: 100px;
+    padding:5px;
+    text-decoration: line-through;
+}
+#float
+{
+    background-color:grey;
+    padding:10px;
+  
+}
+#float > img{
+float:left;
+padding:10px;
+margin: left;
+
+}
+
+.clearboth{
+    clear:both;
+}
+
+.blue
+{
+    background-color: skyblue;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float: left;
+}
+.green
+{
+    background-color:green;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float:right;
+}
+.pink
+{
+    background-color:pink;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float: left;
+
+}
+.grey
+{
+    background-color: grey;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float: left;
+}
+.purple
+{
+    background-color:purple;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float:right;
+}
+.yellow
+{
+    background-color: yellow;
+    padding: 20px 0px;
+    text-align: center;
+    width:100px;
+    float:right;
 }
