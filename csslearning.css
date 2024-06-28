@@ -242,9 +242,6 @@ tr:hover
     background-color: brown;
     color:whitesmoke;
 }
-
-
-
   /* overflow */
   #wrapper
   {
@@ -359,4 +356,32 @@ margin: left;
     text-align: center;
     width:100px;
     float:right;
+    
 }
+.clear
+{clear:both;}
+
+/* grid */
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    background-color: grey;
+    padding: 10px;
+  }
+  .child{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+  }
+  .childlast
+{
+grid-column:2 /span 1;
+
+  }
+  .child:hover{
+    background-color: orange;
+    color:bisque;
+  }
